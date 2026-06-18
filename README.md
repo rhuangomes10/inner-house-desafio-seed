@@ -51,7 +51,7 @@ O Blog foi construído utilizando HTML, CSS e JavaScript, tendo como os principa
 
 
 - [Site]()
-- [Prototipo]()
+- [Prototipo](https://www.figma.com/design/GlEgUNh2ySQhMHUMnGzny6/Prototipa%C3%A7%C3%A3o---Concep%C3%A7%C3%A3o--Copy-?node-id=17-871&p=f&t=deO4wbAOdQuRDas6-0)
 
 ## Authors
 
