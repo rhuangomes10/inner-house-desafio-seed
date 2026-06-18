@@ -6,7 +6,25 @@
     <title>Blog</title>
 </head>
 <body>
+    <nav>
+      <a href="/">Início</a>
+      <a href="/salaEstar">Sala de Estar</a>
+      <a href="/blog">Blog</a>
+      <a href="/contato">Contato</a>
+    </nav>
     <h1>Blog</h1>
+    
+<form id="post-form">
+  <input type="text" id="title" placeholder="Título" required>
+  <textarea id="content" placeholder="Conteúdo" required></textarea>
+  <input type="text" id="author" placeholder="Autor" required>
+  <button type="submit">Publicar</button>
+</form>
+
+
+<div id="blog-posts"></div>
+
+
 </body>
 <script src="blog.js"></script>
 </html>

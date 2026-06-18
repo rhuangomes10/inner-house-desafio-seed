@@ -9,6 +9,7 @@ app.use(express.static("public"));
 app.use("/", require("./api/routes/index"));
 app.use("/blog", require("./api/routes/blog"));
 app.use("/salaEstar", require("./api/routes/salaEstar"));
+app.use("/contato", require("./api/routes/contato"))
 
 app.use((req, res) => {
   res.status(404).send("Página não encontrada");
