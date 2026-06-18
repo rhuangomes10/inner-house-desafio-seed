@@ -19,4 +19,5 @@ Any additional information goes here
 ## Authors
 
 - [@rhuangomes10](https://www.github.com/rhuangomes10)
-
+- [@yrimarinho](https://github.com/yrimarinho)
+- [@PesoLucas](https://github.com/PesoLucas)
