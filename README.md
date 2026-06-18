@@ -1,4 +1,3 @@
-
 # Inner House
 
 O Blog foi construido dessa forma:
@@ -8,7 +7,38 @@ O Blog foi construido dessa forma:
 
 ## EndPoint usados
 
-Any additional information goes here
+#### Buscar todos os Posts
+
+```http
+  GET /api/posts
+```
+
+| Parametro | Type     | Descrição              |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Requisito**. Sua API key |
+
+#### Criar um Post
+
+```http
+  POST /api/post
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `api_key`      | `string` | **Requisito**. Sua API key |
+
+#### Deletar um Post
+
+```http
+  DELETE /api/posts/{id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Requisito**. Sua API key |
+
+
+
 
 ## Links:
 
