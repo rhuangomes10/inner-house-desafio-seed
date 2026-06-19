@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* Cor de fundo geral da página*/
 body {
     background-color: #BCDBF8;
@@ -6,7 +11,7 @@ body {
 
 /* Nome do site*/
 .apresentacao h1{
-    color:#FBCF5B;
+    color:#ffb700;
     margin: 15px;
 
     text-align: center;
@@ -20,11 +25,16 @@ body {
     background-color: #00022280; /* os dois ultimos digitos indicam a transparencia da cor */
     border-radius: 8px;
     width: 410px;
-
+    
     text-align: center;
 }
 
 .apresentacao{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    text-align: center;
     width: 450px;
     margin: 0 auto; /* Centrliza a caixa */
 }
@@ -70,6 +80,16 @@ footer h5{
     display: flex;
     justify-content: center;
     padding-top: 20px;
+
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    z-index: 1000;
 }
 /* barra voadora */
 .navbar{
@@ -108,4 +128,23 @@ footer h5{
 }
 .menu a:hover{
     color: #56DAFF;
+}
+.fundo
+{
+    positon: relative;
+}
+.fundo img
+{
+    width: 100%;
+    display:block;
+    position: relative;
+}
+#email
+{
+    width: 300px;
+    padding: 12px;
+    border: 2px solid #163875;
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: none;
 }
