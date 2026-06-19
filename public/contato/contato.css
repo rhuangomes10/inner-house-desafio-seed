@@ -159,7 +159,6 @@ body{
     border-radius: 10px;
     font-size: 1rem;
     background: #ffffff;
-    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.8);
 }
 .enviavel button
 {
@@ -167,8 +166,14 @@ body{
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.8);
+
+    background-color: #000D2D;
+    color: #BEDCF8;
 }
+.enviavel button:hover{
+    background-color: #163875;
+}
+
 .apresentacao h1{
     color:#ffb700;
     margin: 15px;
@@ -214,7 +219,7 @@ body{
     right: 0;
 
     width: 40%;
-    height: 100vh;
+    height: 120vh;
 
     background-color: #BEDCF8;
 
