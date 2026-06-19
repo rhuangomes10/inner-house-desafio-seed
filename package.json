@@ -16,12 +16,5 @@
   "bugs": {
     "url": "https://github.com/rhuangomes10/inner-house-desafio-seed/issues"
   },
-  "homepage": "https://github.com/rhuangomes10/inner-house-desafio-seed#readme",
-  "dependencies": {
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
-  }
+  "homepage": "https://github.com/rhuangomes10/inner-house-desafio-seed#readme"
 }

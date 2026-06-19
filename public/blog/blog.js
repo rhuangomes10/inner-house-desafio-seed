@@ -1,6 +1,5 @@
 // ===== Configuração da API =====
 const API_URL = 'https://blog-api.seedabit.org.br/api/posts';
-const API_KEY = 'key-r11qdtwbh8'; 
 
 // Função para buscar posts
 async function getPosts() {
