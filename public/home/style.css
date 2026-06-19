@@ -1,9 +1,3 @@
-/* Cor de fundo geral da página*/
-body {
-    background-color: #BCDBF8;
-    font-family: Poppins, sans-serif;
-}
-
 /* Nome do site*/
 .apresentacao h1{
     color:#FBCF5B;
@@ -30,15 +24,6 @@ body {
 }
 
 /* Informações presentes no corpo da página*/
-.corpo h3{
-    color: #032463;
-}
-.corpo p{
-    color: #103781;
-    text-align: justify;
-    line-height: 1.3; /* Espaçamento entre as linhas */
-}
-
 .corpo{
     width: 700px;
     margin: 10px auto;
