@@ -1,6 +1,7 @@
 /* Cor de fundo geral da página*/
 body {
     background-color: #BCDBF8;
+    font-family: Poppins, sans-serif;
 }
 
 /* Nome do site*/
@@ -25,7 +26,7 @@ body {
 
 .apresentacao{
     width: 450px;
-    margin: 0 auto; /* Centrliza a caixa */
+    margin: 0 auto; /* Centrliza a caixa */ 
 }
 
 /* Informações presentes no corpo da página*/
