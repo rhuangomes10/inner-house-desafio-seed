@@ -28,26 +28,3 @@
     width: 700px;
     margin: 10px auto;
 }
-
-/* Informações ao final da página*/
-footer{
-    display: grid;
-    grid-template-columns: 3fr 4fr 3fr; /* proporção das colunas */
-
-    margin-top: 80px;
-}
-
-footer p{
-    color: #103781;
-}
-footer h5{
-    color: #032463;
-}
-
-.local{
-    grid-column: 2;
-}
-
-.contato{
-    grid-column: 3;
-}
