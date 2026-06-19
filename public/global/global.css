@@ -41,12 +41,19 @@ body{
     width: 50px;
     height: 50px;
 }
+
+.logo img:hover {
+    filter: brightness(0) saturate(100%) invert(72%) sepia(62%) saturate(650%) hue-rotate(165deg) brightness(105%) contrast(105%);
+}
 /* aqui é para colocar um espaço entre os textos e deixalos lado a lado e tirar as bolinhas da ul */
 .menu
 {
     display:flex;
     gap: 50px;
     list-style: none; /*bolinhas*/
+    
+    margin: 0;
+    padding: 0;
 }
 .menu a{
     color: white;
@@ -54,6 +61,10 @@ body{
     font-size: 1.5rem;
     font-weight: bold;
     transition: 0.3s; /* tempo da transição para a outra cor (suavisar)*/
+    
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 .menu a:hover{
     color: #56DAFF;
