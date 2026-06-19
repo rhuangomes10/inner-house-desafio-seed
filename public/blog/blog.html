@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link rel="stylesheet" href="blog.css">
 </head>
 <body>
     <nav>
-      <a href="/">Início</a>
-      <a href="/salaEstar">Sala de Estar</a>
-      <a href="/blog">Blog</a>
-      <a href="/contato">Contato</a>
+      <a href="../home/index.html">Início</a>
+      <a href="../salaEstar/salaEstar.html">Sala de Estar</a>
+      <a href="../blog/blog.html">Blog</a>
+      <a href="../contato/contato.html">Contato</a>
     </nav>
     <h1>Blog</h1>
-    
+
 <form id="post-form">
   <input type="text" id="title" placeholder="Título" required>
   <textarea id="content" placeholder="Conteúdo" required></textarea>
@@ -21,11 +22,9 @@
   <button type="submit">Publicar</button>
 </form>
 
-
 <div id="blog-posts"></div>
 
-
-</body>
 <script src="config.js"></script>
 <script src="blog.js"></script>
+</body>
 </html>
