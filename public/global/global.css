@@ -106,8 +106,9 @@ footer h5{
 }
 
 .contato img:hover{
-    filter: brightness(1.9);
+    filter: brightness(2.7);
 }
+
 .contato{
     grid-column: 3;
 
