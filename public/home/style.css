@@ -1,0 +1,67 @@
+/* Cor de fundo geral da página*/
+body {
+    background-color: #BCDBF8;
+}
+
+/* Nome do site*/
+.apresentacao h1{
+    color:#FBCF5B;
+    margin: 15px;
+
+    text-align: center;
+}
+
+.apresentacao p{
+    color: #FFFFFF;
+    padding: 15px;
+
+    margin: 5px;
+    background-color: #00022280; /* os dois ultimos digitos indicam a transparencia da cor */
+    border-radius: 8px;
+    width: 410px;
+
+    text-align: center;
+}
+
+.apresentacao{
+    width: 450px;
+    margin: 0 auto; /* Centrliza a caixa */
+}
+
+/* Informações presentes no corpo da página*/
+.corpo h3{
+    color: #032463;
+}
+.corpo p{
+    color: #103781;
+    text-align: justify;
+    line-height: 1.3; /* Espaçamento entre as linhas */
+}
+
+.corpo{
+    width: 700px;
+    margin: 10px auto;
+}
+
+/* Informações ao final da página*/
+footer{
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr; /* proporção das colunas */
+
+    margin-top: 80px;
+}
+
+footer p{
+    color: #103781;
+}
+footer h5{
+    color: #032463;
+}
+
+.local{
+    grid-column: 2;
+}
+
+.contato{
+    grid-column: 3;
+}
