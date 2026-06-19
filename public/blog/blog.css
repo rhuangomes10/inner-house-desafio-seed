@@ -65,6 +65,14 @@ body{
 .menu a:hover{
     color: #56DAFF;
 }
+.fundo
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
 .fundo img
 {
     width: 100%;
@@ -130,4 +138,99 @@ body{
     max-width: 700px;
     line-height: 1.6;
     color: #224c8d;
+}
+.h1
+{
+    text-align: center;
+    margin-top: 150px;
+    color: #BEDCF8;
+}
+#post-form
+{
+    width: 80%;
+    max-width: 800px;
+    margin: 180px auto;
+    padding: 25px;
+
+    background-color: #BEDCF8;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.8);
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+#post-form input, #post-form textarea
+{
+    padding: 12px;
+    border: 15px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+#post-form button
+{
+    background-color: #000D2D;
+    color: #BEDCF8;
+    border: none;
+    padding: 12px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#post-form button:hover
+{
+    background-color: #163875;
+}
+#blog-posts
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.post-card{
+    width: 700px;
+    padding: 25px;
+
+    background-color: #BEDCF8;
+    border-radius: 20px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.post-card h3
+{
+    margin-top: 0;
+    color:#000D2D;
+    font-size: 2rem;
+}
+.author
+{
+    color: #163875;
+    font-weight: 600;
+}
+.content
+{
+    margin: 15px 0;
+    line-height: 1.6;
+}
+.date
+{
+    color:#163875;
+}
+.btn-delete
+{
+    background-color: #000D2D;
+    color: #BEDCF8;
+    border: nome;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-delete:hover
+{
+    background-color: #163875;
 }
