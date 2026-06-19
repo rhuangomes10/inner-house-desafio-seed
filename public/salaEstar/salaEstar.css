@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #BEDCF8;
+    min-height: 100vh;
+    font-family: Poppins, sans-serif;
+}
+/* a caixa do header */
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+/* barra voadora */
+.navbar{
+    width: 80%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    padding: 15px 30px;
+    background: #000D2D;
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+}
+/* logo cerebro */
+.logo img
+{
+    width: 50px;
+    height: 50px;
+}
+/* aqui é para colocar um espaço entre os textos e deixalos lado a lado e tirar as bolinhas da ul */
+.menu
+{
+    display:flex;
+    gap: 50px;
+    list-style: none; /*bolinhas*/
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.3s; /* tempo da transição para a outra cor (suavisar)*/
+}
+.menu a:hover{
+    color: #56DAFF;
+}
