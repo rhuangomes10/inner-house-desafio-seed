@@ -1,4 +1,249 @@
-/* alterar depois*/
-h1 {
-    margin-top: 200px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    background: #BEDCF8;
+    min-height: 100vh;
+    font-family: Poppins, sans-serif;
+
+
+}
+/* a caixa do header */
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    z-index: 1000;
+}
+/* barra voadora */
+.navbar{
+    width: 80%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    padding: 15px 30px;
+    background: #000D2D;
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+}
+/* logo cerebro */
+.logo img
+{
+    width: 50px;
+    height: 50px;
+}
+/* aqui é para colocar um espaço entre os textos e deixalos lado a lado e tirar as bolinhas da ul */
+.menu
+{
+    display:flex;
+    gap: 50px;
+    list-style: none; /*bolinhas*/
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.3s; /* tempo da transição para a outra cor (suavisar)*/
+}
+.menu a:hover{
+    color: #56DAFF;
+}
+
+.fundo img
+{
+    width: 100%;
+    display:block;
+}
+.conteudo
+{
+    background-color: #BEDCF8;
+    padding: 80px 120px;
+}
+.conteudo h2
+{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.conteudo p
+{
+    max-width: 700px;
+    line-height: 1.6;
+}
+.cartao-pequeno
+{
+    position: absolute;
+
+    top: 240px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 500px;
+
+    border-radius: 15px;
+    overflow: hidden;
+    
+
+    box-shadow: 0 6px 15px rgba(0,0,0,.25);
+}
+.cartao-pequeno img{
+    width: 100%;
+    display: block;
+}
+.conteudoSaladeEstar
+{
+    background: #BEDCF8;
+    padding: 80px 120px;
+    margin-top: -500px;
+
+    border-top-left-radius: 100% 180px;
+    border-top-right-radius: 100% 120px;
+
+    padding: 120px 120px 80px;
+    position: relative;
+    z-index: 2;
+}
+.conteudoSaladeEstar h2
+{
+    color: #163875;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.conteudoSaladeEstar p
+{
+    max-width: 700px;
+    line-height: 1.6;
+    color: #224c8d;
+}
+#email
+{
+    width: 300px;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+.enviavel {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+
+    z-index: 2;
+    margin-top: 10px;
+
+
+    margin: 20px;
+}
+.enviavel input
+{
+    width: 300px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: #ffffff;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.8);
+}
+.enviavel button
+{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.8);
+}
+.apresentacao h1{
+    color:#ffb700;
+    margin: 15px;
+
+    text-align: center;
+}
+
+.apresentacao p{
+    color: #FFFFFF;
+    padding: 15px;
+
+    margin: 5px;
+    background-color: #00022280; /* os dois ultimos digitos indicam a transparencia da cor */
+    border-radius: 8px;
+    width: 410px;
+    
+    text-align: center;
+}
+
+.apresentacao{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    text-align: center;
+    width: 450px;
+    margin: 0 auto; /* Centrliza a caixa */
+}
+.entrar-em-contato
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+}
+.retangulo-azul
+{
+
+  position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 40%;
+    height: 100vh;
+
+    background-color: #BEDCF8;
+
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;
+    padding-left: 80px;
+
+}
+.retangulo-azul h1
+{
+    color: #000D2D;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.retangulo-azul p
+{
+    color: #163875;
+    font-size: 1.5rem;
+
+    margin: 0px;
+    margin-bottom: 30px;
+
+    max-width: 400px;
+}
+
