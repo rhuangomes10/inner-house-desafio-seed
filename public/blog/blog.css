@@ -134,3 +134,112 @@ body{
 {
     background-color: #163875;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        display: flex !important;
+        flex-direction: column !important;
+        min-height: 100vh !important;
+    }
+
+    .header {
+        position: absolute !important;
+        top: 10px !important;
+        left: 0 !important;
+        width: 100% !important;
+        padding: 0 5px !important;
+        z-index: 1000 !important;
+    }
+
+    .navbar {
+        width: 98% !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        gap: 10px !important;
+        padding: 10px !important;
+    }
+
+    .menu {
+        flex-direction: row !important;
+        gap: 12px !important;
+    }
+
+    .menu a {
+        font-size: clamp(0.85rem, 3vw, 1.1rem) !important;
+    }
+
+    .logo img {
+        width: 35px !important;
+        height: 35px !important;
+    }
+
+    .h1 {
+        margin-top: 130px !important;
+        font-size: clamp(1.8rem, 6vw, 2.5rem) !important;
+        padding: 0 15px !important;
+    }
+
+    /* CORREÇÃO AQUI: margem aumentada para desgrudar do header */
+    #post-form {
+        width: 90% !important;
+        margin: 150px auto 30px !important;
+        padding: 15px !important;
+    }
+
+    .post-card {
+        width: 90% !important;
+        max-width: 100% !important;
+        padding: 20px !important;
+    }
+
+    .post-card h3 {
+        font-size: clamp(1.3rem, 5vw, 1.8rem) !important;
+    }
+
+    .content {
+        font-size: clamp(0.95rem, 3.5vw, 1.1rem) !important;
+    }
+
+    .cartao-pequeno {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        transform: none !important;
+        width: 90% !important;
+        margin: 20px auto !important;
+    }
+
+    .conteudoSaladeEstar {
+        margin-top: 0 !important;
+        padding: 40px 20px !important;
+    }
+
+    footer {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        gap: 10px !important;
+        padding: 20px 10px !important;
+        margin-top: auto !important; 
+        width: 100% !important;
+
+    }
+
+    footer h5 {
+        font-size: 0.85rem !important;
+    }
+
+    footer p {
+        font-size: 0.75rem !important;
+    }
+
+    .logo-footer img {
+        width: 45px !important;
+    }
+
+    .contato img {
+        width: 30px !important;
+    }
+}
