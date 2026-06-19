@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #BEDCF8;
+    min-height: 100vh;
+    font-family: Poppins, sans-serif;
+}
+
+.fundo
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.fundo img
+{
+    width: 100%;
+    display:block;
+}
+.conteudo
+{
+    background-color: #BEDCF8;
+    padding: 80px 120px;
+}
+.conteudo h2
+{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.conteudo p
+{
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+.h1
+{
+    text-align: center;
+    margin-top: 150px;
+    color: #BEDCF8;
+}
+#post-form
+{
+    width: 80%;
+    max-width: 800px;
+    margin: 180px auto;
+    padding: 25px;
+
+    background-color: #BEDCF8;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.8);
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+#post-form input, #post-form textarea
+{
+    padding: 12px;
+    border: 15px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+#post-form button
+{
+    background-color: #000D2D;
+    color: #BEDCF8;
+    border: none;
+    padding: 12px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#post-form button:hover
+{
+    background-color: #163875;
+}
+#blog-posts
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.post-card{
+    width: 700px;
+    padding: 25px;
+
+    background-color: #BEDCF8;
+    border-radius: 20px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.post-card h3
+{
+    margin-top: 0;
+    color:#000D2D;
+    font-size: 2rem;
+}
+.author
+{
+    color: #163875;
+    font-weight: 600;
+}
+.content
+{
+    margin: 15px 0;
+    line-height: 1.6;
+}
+.date
+{
+    color:#163875;
+}
+.btn-delete
+{
+    background-color: #000D2D;
+    color: #BEDCF8;
+    border: nome;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-delete:hover
+{
+    background-color: #163875;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        display: flex !important;
+        flex-direction: column !important;
+        min-height: 100vh !important;
+    }
+
+    .header {
+        position: absolute !important;
+        top: 10px !important;
+        left: 0 !important;
+        width: 100% !important;
+        padding: 0 5px !important;
+        z-index: 1000 !important;
+    }
+
+    .navbar {
+        width: 98% !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        gap: 10px !important;
+        padding: 10px !important;
+    }
+
+    .menu {
+        flex-direction: row !important;
+        gap: 12px !important;
+    }
+
+    .menu a {
+        font-size: clamp(0.85rem, 3vw, 1.1rem) !important;
+    }
+
+    .logo img {
+        width: 35px !important;
+        height: 35px !important;
+    }
+
+    .h1 {
+        margin-top: 130px !important;
+        font-size: clamp(1.8rem, 6vw, 2.5rem) !important;
+        padding: 0 15px !important;
+    }
+
+    /* CORREÇÃO AQUI: margem aumentada para desgrudar do header */
+    #post-form {
+        width: 90% !important;
+        margin: 150px auto 30px !important;
+        padding: 15px !important;
+    }
+
+    .post-card {
+        width: 90% !important;
+        max-width: 100% !important;
+        padding: 20px !important;
+    }
+
+    .post-card h3 {
+        font-size: clamp(1.3rem, 5vw, 1.8rem) !important;
+    }
+
+    .content {
+        font-size: clamp(0.95rem, 3.5vw, 1.1rem) !important;
+    }
+
+    .cartao-pequeno {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        transform: none !important;
+        width: 90% !important;
+        margin: 20px auto !important;
+    }
+
+    .conteudoSaladeEstar {
+        margin-top: 0 !important;
+        padding: 40px 20px !important;
+    }
+
+    footer {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        gap: 10px !important;
+        padding: 20px 10px !important;
+        margin-top: auto !important; 
+        width: 100% !important;
+
+    }
+
+    footer h5 {
+        font-size: 0.85rem !important;
+    }
+
+    footer p {
+        font-size: 0.75rem !important;
+    }
+
+    .logo-footer img {
+        width: 45px !important;
+    }
+
+    .contato img {
+        width: 30px !important;
+    }
+}
