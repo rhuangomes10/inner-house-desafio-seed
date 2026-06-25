@@ -50,7 +50,7 @@ O Blog foi construído utilizando HTML, CSS e JavaScript, tendo como os principa
 ## Links:
 
 
-- [Site]()
+- [Site](https://rhuangomes10.github.io/inner-house-desafio-seed/home/index.html)
 - [Prototipo](https://www.figma.com/design/GlEgUNh2ySQhMHUMnGzny6/Prototipa%C3%A7%C3%A3o---Concep%C3%A7%C3%A3o--Copy-?node-id=17-871&p=f&t=deO4wbAOdQuRDas6-0)
 
 ## Authors
